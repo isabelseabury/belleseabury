@@ -1,132 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/84b71431a9.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/84b71431a9.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Belle Seabury</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico.png">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico.png" />
     <script defer src="main.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="body">
+      <!--banner section-->
 
-<div class="body">
-<!--banner section-->
-
-    <nav class="nav">
+      <nav class="nav">
         <div class="nav-left">
-            <img src="img/logo.png" alt="">
-            <h1>Belle Seabury</h1>
+          <img src="img/logo.png" alt="Sparkle logo" />
+          <h3>Belle Seabury</h3>
         </div>
         <div class="nav-right">
-            <a href="mailto:444belle@gmail.com">444belle@gmail.com</a>
+          <a href="#about-me">About</a>
+          <a href="#projects">Projects</a>
+          <!--<a href="mailto:444belle@gmail.com">444belle@gmail.com</a>-->
         </div>
-    </nav>
+      </nav>
 
-<section id="banner">
-
-    <div class="banner-left">
-        <div class="location">
+      <section id="banner">
+        <div class="banner-left">
+          <div class="location">
             <i class="fa-solid fa-location-dot"></i>
             <h4>Saint Petersburg, FL</h4>
-        </div>
-            <h1>Hello,<br>I'm Belle.</h1>
-            <p>I'm a 22 year old frontend developer based in Saint Petersburg, Florida. I'm constantly learning the latest technologies and growing my knowledge.</p>
-        <div class="links">
+          </div>
+          <h1>Hello,<br />I'm Belle.</h1>
+          <p>
+            I'm a web designer and front-end developer based in The New England
+            area.
+          </p>
+          <div class="links">
             <a href="http://www.github.com/isabelseabury">GitHub</a>
-            <a href="https://www.linkedin.com/in/isabel-seabury-40b9a417a">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/isabel-seabury-40b9a417a"
+              >LinkedIn</a
+            >
+          </div>
         </div>
-    </div>
-    <div class="banner-right">
-        <img class="me" src="img/me.png.png" alt="">
-        <img class="rainbow" src="img/rainbow.png" alt="">
-    </div>
+        <div class="banner-right">
+          <img class="me" src="img/me.png.png" alt="" />
+          <img class="rainbow" src="img/rainbow.png" alt="" />
+        </div>
+      </section>
 
-</section>
+      <!-- about me section -->
 
-<!-- about me section -->
+      <section class="about-me" id="about-me">
+        <h1>A little about me</h1>
+        <p>
+          Thanks for stopping by! My name is Belle and I'm a front-end web
+          developer and web designer specializing in JavaScript and React.js, as
+          well as UI/UX design, accessability, and responsive design.<br /><br />I
+          am currently working remotely as a full time front-end developer for
+          the Institute for Intergovernmental Research, a nonprofit organization
+          based in Florida. Within this role, I am consistently growing my
+          knowledge on new libraries, frameworks, and other tools.
+        </p>
+        <div class="signature"><img src="img/signature.png" alt="" /></div>
+      </section>
 
-<div class="about-me">
-    <h1>A little about me</h1>
-    <p>Thanks for stopping by. My name is Belle Seabury and I am a self-motivated frontend web developer. I do well working with teams and solving problems that arise.<br><br>I specialize in HTML/CSS, JavaScript, and React. I am also experienced in responsive design, APIs, debugging, and version control systems. I am a critical thinker and problem solver, and I look forward to growing my skills and gaining more experience.</p>
-    <div class="signature"><img src="img/signature.png" alt=""></div>
-</div>
+      <!-- projects section -->
 
-<!-- projects section -->
-
-<section id="projects">
-
-    <div class="apps">
-        <div class="mapty-app project">
-            <a class="project-img" href="https://mapty-nine.vercel.app/"><img src="img/mapty-app.png" alt=""></a>
+      <section id="projects">
+        <div class="apps">
+          <div class="movie-app project">
+            <a
+              class="project-img"
+              href="https://movie-app-isabelseaburys-projects.vercel.app/"
+              ><img src="img/movie-app.png" alt="Movie Application"
+            /></a>
             <div class="project-text">
-                <h4>Application</h4>
-                <a href="https://mapty-nine.vercel.app/">Mapty</a>
-                <p>HTML, CSS, and JavaScript<br><br>This application uses the Leaflet API to display the user's location on a map. The user is then able to pin locations on the map to track running or cycling workouts.</p>
+              <h4>Application</h4>
+              <a href="https://mapty-nine.vercel.app/"
+                >React.js Movie Project</a
+              >
+              <p>
+                React.js, React Hooks, JSX<br /><br />This project is a quick
+                site created off of a React.js tutorial and uses React Hooks to
+                dynamically change the UI based on the user's interactions.
+              </p>
             </div>
-        </div>
-        <div class="bankist-app project">
-            <a class="project-img" href="http://bankist-app-eight.vercel.app"><img src="img/bankist-app.png" alt=""></a>
+          </div>
+          <div class="mapty-app project">
+            <a class="project-img" href="https://mapty-nine.vercel.app/"
+              ><img src="img/mapty-app.png" alt="Map Application"
+            /></a>
             <div class="project-text">
-                <h4>Application</h4>
-                <a href="http://bankist-app-eight.vercel.app">Bankist</a>
-                <p>HTML, CSS, and JavaScript<br><br>Login username: jd / Password: 2222<br><br>This application stores users' information into objects, which are used as accounts. Users can also transfer money between accounts and request a loan. The user is logged out after the logout timer ends.</p>
+              <h4>Application</h4>
+              <a href="https://mapty-nine.vercel.app/">Mapty</a>
+              <p>
+                HTML, CSS, and JavaScript<br /><br />This application uses the
+                Leaflet API to display the user's location on a map. The user is
+                then able to pin locations on the map to track running or
+                cycling workouts.
+              </p>
             </div>
-        </div>
-    </div>
-
-    <div class="landing-pages">
-            <div class="bankist-landing project">
-                <a class="project-img" href="http://bankist-page.vercel.app"><img src="img/bankist-landing.png" alt=""></a>
-                <div class="project-text">
-                    <h4>Landing Page</h4>
-                    <a href="http://bankist-page.vercel.app">Bankist</a>
-                    <p>HTML, CSS, and JavaScript<br><br>This page is a landing page for the Bankist application shown above. In creating this page, I utilized a lazy loading technique to optimize performance and a slider using JavaScript.</p>
-                </div>
-        </div>
-        <div class="donut-landing project">
-            <a class="project-img" href="http://donut-page.vercel.app"><img src="img/donut-landing.png" alt=""></a>
+          </div>
+          <div class="bankist-app project">
+            <a class="project-img" href="http://bankist-app-eight.vercel.app"
+              ><img src="img/bankist-app.png" alt="Bank Application"
+            /></a>
             <div class="project-text">
-                <h4>Landing Page</h4>
-                <a href="http://donut-page.vercel.app">Donut Shop</a>
-                <p>HTML and CSS<br><br>I made this landing page for an imaginary donut shop using CSS techniques such as flexbox and responsive web design.</p>
+              <h4>Application</h4>
+              <a href="http://bankist-app-eight.vercel.app">Bankist</a>
+              <p>
+                HTML, CSS, and JavaScript<br /><br />Login username: jd /
+                Password: 2222<br /><br />This application stores users'
+                information into objects, which are used as accounts. Users can
+                also transfer money between accounts and request a loan. The
+                user is logged out after the logout timer ends.
+              </p>
             </div>
+          </div>
         </div>
-    <div class="ed-landing project">
-        <a class="project-img" href="http://ij-project.vercel.app"><img src="img/ed-landing.png" alt=""></a>
-        <div class="project-text">
-            <h4>Landing Page</h4>
-            <a href="http://ij-project.vercel.app">Eating Disorder Education</a>
-            <p>HTML and CSS<br><br>This page was created for a project during my senior year of college. I utilized responsive web design in the creation of this project.</p>
+
+        <div class="landing-pages">
+          <div class="bankist-landing project">
+            <a class="project-img" href="http://bankist-page.vercel.app"
+              ><img src="img/bankist-landing.png" alt="Bank Page"
+            /></a>
+            <div class="project-text">
+              <h4>Landing Page</h4>
+              <a href="http://bankist-page.vercel.app">Bankist</a>
+              <p>
+                HTML, CSS, and JavaScript<br /><br />This page is a landing page
+                for the Bankist application shown above. In creating this page,
+                I utilized a lazy loading technique to optimize performance and
+                a slider using JavaScript.
+              </p>
+            </div>
+          </div>
+          <div class="donut-landing project">
+            <a class="project-img" href="http://donut-page.vercel.app"
+              ><img src="img/donut-landing.png" alt="Donut Shop Page"
+            /></a>
+            <div class="project-text">
+              <h4>Landing Page</h4>
+              <a href="http://donut-page.vercel.app">Donut Shop</a>
+              <p>
+                HTML and CSS<br /><br />I made this landing page for an
+                imaginary donut shop using CSS techniques such as flexbox and
+                responsive web design.
+              </p>
+            </div>
+          </div>
+          <div class="ed-landing project">
+            <a class="project-img" href="http://ij-project.vercel.app"
+              ><img
+                src="img/ed-landing.png"
+                alt="Eating disorder education page"
+            /></a>
+            <div class="project-text">
+              <h4>Landing Page</h4>
+              <a href="http://ij-project.vercel.app"
+                >Eating Disorder Education</a
+              >
+              <p>
+                HTML and CSS<br /><br />This page was created for a project
+                during my senior year of college. I utilized responsive web
+                design in the creation of this project.
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <!-- footer section -->
+
+      <section class="footer">
+        <div class="footer-left">
+          <img src="img/logo.png" alt="" />
+          <h1>Belle Seabury</h1>
+        </div>
+        <div class="footer-right">
+          <h1>Say hello:</h1>
+          <a href="tel:6037165245">(603) 716-5245</a>
+        </div>
+      </section>
+
+      <hr />
     </div>
-    </div>
-        
-
-</section>
-
-<!-- footer section -->
-
-<section class="footer">
-
-    <div class="footer-left">
-        <img src="img/logo.png" alt="">
-        <h1>Belle Seabury</h1>
-    </div>
-    <div class="footer-right">
-        <h1>Say hello: </h1><a href="tel:6037165245">(603) 716-5245</a>
-    </div>
-
-</section>
-
-<hr>
-
-
-</div>
-
-</body>
+  </body>
 </html>
